@@ -7,6 +7,7 @@ import { TermsSection } from "@/components/terms-section"
 import { CompanyFAQs } from "@/components/company-faqs"
 import { CustomerFeedback } from "@/components/customer-feedback"
 import { RechargeOperators } from "@/components/recharge-operators"
+import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -40,6 +41,9 @@ export default function Home() {
         <RechargeOperators />
       </div>
       <div className="animate-fade-in-up" style={{ animationDelay: "0.9s" }}>
+        <ContactSection />
+      </div>
+      <div className="animate-fade-in-up" style={{ animationDelay: "1.0s" }}>
         <Footer />
       </div>
     </main>
